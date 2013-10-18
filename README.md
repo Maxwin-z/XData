@@ -1,3 +1,5 @@
+# [中文文档](README.zh-CN.md)
+
 # iOS JSON Object Mapping Tool
 This is a tool (based nodejs), generate JSON(NSDiction object) to customize object(XObject).  
 An easy way to manipulate json in Objective-C.
