@@ -1,0 +1,9 @@
+XStudent {
+	string name;
+	int age;
+}
+
+XSchool {
+	string name;
+	XStudent[] students;
+}

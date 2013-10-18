@@ -1,0 +1,274 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C1FAF9101810E50200165AA4 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1FAF90F1810E50200165AA4 /* CoreFoundation.framework */; };
+		C1FAF9131810E50200165AA4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C1FAF9121810E50200165AA4 /* main.m */; };
+		C1FAF9251810E53800165AA4 /* data.gen.js in Sources */ = {isa = PBXBuildFile; fileRef = C1FAF91C1810E53800165AA4 /* data.gen.js */; };
+		C1FAF9261810E53800165AA4 /* XBaseData.m in Sources */ = {isa = PBXBuildFile; fileRef = C1FAF91F1810E53800165AA4 /* XBaseData.m */; };
+		C1FAF9271810E53800165AA4 /* XSchool.m in Sources */ = {isa = PBXBuildFile; fileRef = C1FAF9221810E53800165AA4 /* XSchool.m */; };
+		C1FAF9281810E53800165AA4 /* XStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = C1FAF9241810E53800165AA4 /* XStudent.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C1FAF90A1810E50200165AA4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C1FAF90C1810E50200165AA4 /* XData */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = XData; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1FAF90F1810E50200165AA4 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		C1FAF9121810E50200165AA4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C1FAF91C1810E53800165AA4 /* data.gen.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = data.gen.js; sourceTree = "<group>"; };
+		C1FAF91D1810E53800165AA4 /* types.schema */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = types.schema; sourceTree = "<group>"; };
+		C1FAF91E1810E53800165AA4 /* XBaseData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBaseData.h; sourceTree = "<group>"; };
+		C1FAF91F1810E53800165AA4 /* XBaseData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBaseData.m; sourceTree = "<group>"; };
+		C1FAF9201810E53800165AA4 /* XData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XData.h; sourceTree = "<group>"; };
+		C1FAF9211810E53800165AA4 /* XSchool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSchool.h; sourceTree = "<group>"; };
+		C1FAF9221810E53800165AA4 /* XSchool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSchool.m; sourceTree = "<group>"; };
+		C1FAF9231810E53800165AA4 /* XStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XStudent.h; sourceTree = "<group>"; };
+		C1FAF9241810E53800165AA4 /* XStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XStudent.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1FAF9091810E50200165AA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1FAF9101810E50200165AA4 /* CoreFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C1FAF9031810E50200165AA4 = {
+			isa = PBXGroup;
+			children = (
+				C1FAF9111810E50200165AA4 /* XData */,
+				C1FAF90E1810E50200165AA4 /* Frameworks */,
+				C1FAF90D1810E50200165AA4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C1FAF90D1810E50200165AA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1FAF90C1810E50200165AA4 /* XData */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1FAF90E1810E50200165AA4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1FAF90F1810E50200165AA4 /* CoreFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C1FAF9111810E50200165AA4 /* XData */ = {
+			isa = PBXGroup;
+			children = (
+				C1FAF91B1810E53800165AA4 /* XData */,
+				C1FAF9121810E50200165AA4 /* main.m */,
+			);
+			path = XData;
+			sourceTree = "<group>";
+		};
+		C1FAF91B1810E53800165AA4 /* XData */ = {
+			isa = PBXGroup;
+			children = (
+				C1FAF91C1810E53800165AA4 /* data.gen.js */,
+				C1FAF91D1810E53800165AA4 /* types.schema */,
+				C1FAF91E1810E53800165AA4 /* XBaseData.h */,
+				C1FAF91F1810E53800165AA4 /* XBaseData.m */,
+				C1FAF9201810E53800165AA4 /* XData.h */,
+				C1FAF9211810E53800165AA4 /* XSchool.h */,
+				C1FAF9221810E53800165AA4 /* XSchool.m */,
+				C1FAF9231810E53800165AA4 /* XStudent.h */,
+				C1FAF9241810E53800165AA4 /* XStudent.m */,
+			);
+			path = XData;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1FAF90B1810E50200165AA4 /* XData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1FAF9181810E50200165AA4 /* Build configuration list for PBXNativeTarget "XData" */;
+			buildPhases = (
+				C1FAF9081810E50200165AA4 /* Sources */,
+				C1FAF9091810E50200165AA4 /* Frameworks */,
+				C1FAF90A1810E50200165AA4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XData;
+			productName = XData;
+			productReference = C1FAF90C1810E50200165AA4 /* XData */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1FAF9041810E50200165AA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = nju;
+			};
+			buildConfigurationList = C1FAF9071810E50200165AA4 /* Build configuration list for PBXProject "XData" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C1FAF9031810E50200165AA4;
+			productRefGroup = C1FAF90D1810E50200165AA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1FAF90B1810E50200165AA4 /* XData */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1FAF9081810E50200165AA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1FAF9281810E53800165AA4 /* XStudent.m in Sources */,
+				C1FAF9271810E53800165AA4 /* XSchool.m in Sources */,
+				C1FAF9251810E53800165AA4 /* data.gen.js in Sources */,
+				C1FAF9131810E50200165AA4 /* main.m in Sources */,
+				C1FAF9261810E53800165AA4 /* XBaseData.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C1FAF9161810E50200165AA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C1FAF9171810E50200165AA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C1FAF9191810E50200165AA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C1FAF91A1810E50200165AA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1FAF9071810E50200165AA4 /* Build configuration list for PBXProject "XData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1FAF9161810E50200165AA4 /* Debug */,
+				C1FAF9171810E50200165AA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1FAF9181810E50200165AA4 /* Build configuration list for PBXNativeTarget "XData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1FAF9191810E50200165AA4 /* Debug */,
+				C1FAF91A1810E50200165AA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1FAF9041810E50200165AA4 /* Project object */;
+}
